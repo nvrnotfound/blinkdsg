@@ -1,0 +1,118 @@
+@import url("https://use.typekit.net/dcj7wkv.css");
+
+:root {
+    --background-color: #281F3D;
+    --font-color: #fff7e9;
+    --font-principal:"komet", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    background-color: var(--background-color);
+    font-family: var(--font-principal);
+    color: var(--font-color);
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #B89CF0;
+    transition: 0.5s;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+.lista-nav{
+    display: flex;
+    justify-content: center;
+    padding: 4%;
+    margin-top: 1%;
+    gap: 6%;
+    list-style: none;
+}
+
+.item1-lista{
+    background: none;
+    border: #efb9db;
+    white-space: nowrap;
+    padding: 2%;
+    border-radius: 100px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.item2-lista{
+    background: none;
+    border: #bed35a;
+    white-space: nowrap;
+    padding: 2%;
+    border-radius: 100px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.item3-lista{
+    background: none;
+    border: #b89cf0;
+    padding: 2%;
+    border-radius: 100px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.item4-lista{
+    background: none;
+    border: #efb9db;
+    padding: 2%;
+    border-radius: 100px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.item5-lista{
+    background: none;
+    border: #bed35a;
+    padding: 2%;
+    border-radius: 100px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.item6-lista{
+    background: none;
+    border: #b89cf0;
+    padding: 2%;
+    border-radius: 100px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.texto-bold{
+    font-weight: 600;
+}
+
+body{
+    background-color: var(--background-color);
+    background-image: url("../Assets/background-home.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.logo-principal{
+    width: 30%;
+}
