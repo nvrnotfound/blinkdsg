@@ -1,0 +1,59 @@
+@import url("https://use.typekit.net/dcj7wkv.css");
+
+:root {
+    --background-color: #fff7e9;
+    --font-color: #111c19;
+    --destaque-texto:#bed35a;
+    --font-principal:"komet", sans-serif;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: end;
+}
+
+.redirect{
+    display: flex;
+    justify-content: end;
+    margin: 1%;
+}
+
+.logo{
+    width: 20%;
+    margin: 1% 1% 0 0;
+}
+
+body{
+    width: 100%;
+    background-image: url(../Assets/fundo-termos.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--background-color);
+    font-family: var(--font-principal);
+    color: var(--font-color);
+}
+
+.container-conteudo{
+    margin: 8% 0 0 5%;
+}
+
+.titulo{
+    font-size: 4rem;
+    font-weight: 400;
+    margin-bottom: 2%;
+}
+
+p{
+    width: 60%;
+    font-size: 1.5rem;
+}
+
+strong{
+    color: var(--destaque-texto);
+}

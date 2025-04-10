@@ -1,0 +1,93 @@
+@import url("https://use.typekit.net/dcj7wkv.css");
+
+:root {
+    --background-color: #111c19;
+    --font-color: #fff7e9;
+    --font-principal:"komet", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: end;
+}
+
+.redirect{
+    display: flex;
+    justify-content: end;
+    margin: 1%;
+}
+
+.logo{
+    width: 20%;
+    margin: 1% 1% 0 0;
+}
+
+body{
+    width: 100%;
+    background-color: var(--background-color);
+    font-family: var(--font-principal);
+    color: var(--font-color);
+}
+
+.container{
+    display: grid;
+    height: 70vh;
+    grid-template-columns: 90% 5% 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-conteudo{
+    display: inline-block;
+    justify-content: center;
+}
+
+.titulo{
+    font-size: 9.5rem;
+    font-weight: 400;
+    color: #bed35a;
+    margin-left: 5%;
+}
+
+.borda-lista{
+    border: 2px solid #bed35a;
+    border-radius: 100px;
+    border-width: 20%;
+    margin: 3% 0 0 6%;
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    padding: 1% 0 1% 0;
+}
+
+.trabalhadora{
+    text-align: center;
+    text-decoration: none;
+    color: var(--font-color);
+    font-weight: 700;
+    font-family: var(--font-principal);
+    font-size: 1.5rem;
+}
+
+.trabalhadora:hover{
+    color: #b89cf0;
+}
+
+.aviso{
+    margin: 5% 0 0 6%;
+}
+
+.clique{
+    font-family: var(--font-principal);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
