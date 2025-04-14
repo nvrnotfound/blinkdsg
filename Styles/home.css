@@ -3,6 +3,7 @@
 :root {
     --background-color: #281F3D;
     --font-color: #fff7e9;
+    --font-color2: #111c19;
     --font-principal:"komet", sans-serif;
 }
 
@@ -11,7 +12,15 @@
     padding: 0;
 }
 
-a{
+.destaque-roxo{
+    color: #B89CF0;
+}
+
+.destaque-verde{
+    color: #bed35a;
+}
+
+.header-a{
     background-color: var(--background-color);
     font-family: var(--font-principal);
     color: var(--font-color);
@@ -20,7 +29,7 @@ a{
     text-decoration: none;
 }
 
-a:hover{
+.header-a:hover{
     color: #B89CF0;
     transition: 0.5s;
 }
@@ -109,9 +118,146 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 75vh;
 }
 
 .logo-principal{
     width: 30%;
+    margin-bottom: 10%;
 }
+
+.divisor{
+    height: 42vh;
+    background-image: url(../Assets/divisor.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 8%;
+    background-color: #fff7e9;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    height: 50vh;
+    padding: 2em;
+    text-align: center;
+    background-color: #fff7e9;
+}
+
+.titulo-porque{
+    color: var(--font-color2);
+    text-align: left;
+    font-size: 5rem;
+    font-weight: 400;
+    font-family: var(--font-principal);
+    margin-left: 20%;
+}
+
+.descricao-porque{
+    padding: 50px 280px 0 280px;
+    text-align: left;
+    font-family: var(--font-principal);
+    font-weight: 400;
+    font-size: 2rem;
+    color: var(--font-color2);
+}
+
+.botao{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    color: #281F3D;
+    font-weight: 400;
+    font-size: 1.5rem;
+    width: 55%;
+  padding: 10px 0;
+  background-color: #B89CF0;
+  text-decoration: none;
+  border-radius: 100px;
+}
+.botao:hover{
+    color: #111c19;
+    background-color: #aa90dd;
+    transition: 0.4s;
+}
+
+.depoimentos{
+    font-family: var(--font-principal);
+    background-image: url(../Assets/background-depoimentos.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #281f3d;
+    font-size: 1.5rem;
+    padding: 2.2em;
+    height: 120vh;
+    background-color: #fff7e9;
+  }
+
+.estrelas{
+    color: #efb9db;
+}
+
+.titulo-depoimentos{
+    margin: 0 0 5% 8%;
+    font-weight: 400;
+    font-family: var(--font-principal);
+    font-size: 4rem;
+}
+
+  .depoimentos-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .depoimento{
+    margin-left: 14%;
+    padding: 1em;
+  }
+
+  .orcamento {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    padding: 2em;
+    height: 94vh;
+    background: linear-gradient(to right, #2d2b4e 50%, #f2c4f4 50%);
+  }
+  
+.titulo-orcamento{
+    font-family: var(--font-principal);
+    color: var(--font-color);
+    font-size: 5rem;
+    font-weight: 400;
+    line-height: 100%;
+    margin: 0 0 5% 10%;
+}
+
+.texto-orcamento{
+    font-family: var(--font-principal);
+    font-weight: 400;
+    color: var(--font-color);
+    font-size: 1.5rem;
+    line-height: 150%;
+    margin-left: 10%;
+}
+
+.contato {
+    flex: 1 1 300px;
+    padding: 1em;
+    color: var(--font-color);
+    text-align: center;
+  }
+
+  .contato-texto{
+    font-family: var(--font-principal);
+    color: #281f3d;
+    font-weight: 400;
+    font-size: 6rem;
+    line-height: 100%;
+  }
+  
+  .icons img {
+    width: 10%;
+    margin: 5% 1%;
+  }
