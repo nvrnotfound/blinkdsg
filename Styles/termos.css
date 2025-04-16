@@ -50,10 +50,30 @@ body{
 }
 
 p{
-    width: 60%;
+    width: 65%;
     font-size: 1.5rem;
 }
 
 strong{
     color: var(--destaque-texto);
+}
+
+@media (max-width: 1000px){
+
+    .logo{
+        width: 15%;
+    }
+
+    .titulo{
+        font-size: 3.25rem;
+        margin: 5% 0 10% 0;
+        line-height: 100%;
+        
+    }
+    
+    p{
+        text-align: justify;
+        font-size: 1.20rem;
+        width: 95%;
+    }
 }

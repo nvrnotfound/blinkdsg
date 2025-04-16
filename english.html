@@ -9,6 +9,9 @@
 </head>
 <body>
     <header>
+        <div class="menu-toggle" id="menu-toggle">
+          &#9776;
+        </div>
         <nav>
             <ul class="lista-nav">
             <li class="item1-lista"><a class="header-a" href="terms.html"><strong class="texto-bold">TERMS</strong> </a></li>
@@ -20,6 +23,7 @@
         </ul>
         </nav>
     </header>
+
     <main class="principal">
         <section class="inicio">
             <img class="logo-principal" src="/Assets/logo-blink.png" alt="">
@@ -27,7 +31,7 @@
 
         <section class="container2">
             <h1 class="titulo-porque">WHY <strong class="destaque-verde">ORDER</strong><br> WITH <strong class="destaque-verde"> BLINK?</strong></h1>
-            <p class="descricao-porque">With <strong class="negrito">Blink Design</strong>, your project stands out with a<strong class="negrito"> unique and authentic identity.</strong><br><br>With nine years of experience, we deliver high-quality designs that reflect your style, all with complete transparency. <strong class="destaque-verde">Simple, clear, and stunning, all in the blink of an eye!</strong><br><a href="terms.html" class="botao">Purchasing Terms</a></p>
+            <p class="descricao-porque">With <strong class="negrito">Blink Design</strong>, your project stands out with a<strong class="negrito"> unique and authentic identity.</strong><br><br>With nine years of experience, we deliver high-quality designs that reflect your style, all with complete transparency. <strong class="destaque-verde">Simple, clear, and stunning, all in the blink of an eye!</strong><br><a href="terms.html" class="botao">PURCHASING TERMS</a></p>
         </section>
 
         <section class="divisor">
@@ -38,42 +42,42 @@
             <div class="depoimentos-grid">
               <div class="depoimento">
                 <h3>SD Descontos <strong class="estrelas">★★★★★</strong></h3>
-                <p>I don’t even know what to say, I just loved it.<br>Seriously. It’s everything I wanted. Unique, yet<br> true to the original. I’m speechless.</p>
+                <p>I don’t even know what to say, I just loved it. Seriously. It’s everything I wanted. Unique, yet true to the original. I’m speechless.</p>
               </div>
               <div class="depoimento">
                 <h3>CRBR <strong class="estrelas">★★★★★</strong></h3>
-                <p>I want to thank you again. It turned out so beautiful,<br>truly. Even better than I imagined.<br>You totally nailed it!</p>
+                <p>I want to thank you again. It turned out so beautiful, truly. Even better than I imagined. You totally nailed it!</p>
               </div>
               <div class="depoimento">
                 <h3>Golden Squad <strong class="estrelas">★★★★★</strong></h3>
-                <p>We at Golden Squad want to thank you for the time<br> and dedication you put into creating this<br> beautiful and amazing work.<br> We absolutely loved it, thank you once again!</p>
+                <p>We at Golden Squad want to thank you for the time and dedication you put into creating this beautiful and amazing work. We absolutely loved it, thank you once again!</p>
               </div>
               <div class="depoimento">
                 <h3>Nap K-Store <strong class="estrelas">★★★★★</strong></h3>
-                <p>Thank you for transforming this new phase of Nap.<br>I was feeling a bit discouraged, but now I<br>have to rise to the occasion and <br>honor these perfect designs.</p>
+                <p>Thank you for transforming this new phase of Nap. I was feeling a bit discouraged, but now I have to rise to the occasion and  honor these perfect designs.</p>
               </div>
               <div class="depoimento">
                 <h3>Magic Go Store<strong class="estrelas">★★★★★</strong></h3>
-                <p>It turned out perfect!! I know I've said this before, but <br>damn, you are so talented, you know!!! Incredible!</p>
+                <p>It turned out perfect!! I know I've said this before, but damn, you are so talented, you know!!! Incredible!</p>
               </div>
               <div class="depoimento">
                 <h3>Clube 42 <strong class="estrelas">★★★★★</strong></h3>
-                <p>I loved it, I hope to be able to work with<br>you again on other projects!</p>
+                <p>I loved it, I hope to be able to work with you again on other projects!</p>
               </div>
               <div class="depoimento">
                 <h3>Velas Lux <strong class="estrelas">★★★★★</strong></h3>
-                <p>Girl, I’m the one who should be thanking you! Everything<br> is wonderful!By the way, you’re not getting rid of me anytime<br>soon because I want to make candles for songs<br>by other artists next!</p>
+                <p>Girl, I’m the one who should be thanking you! Everything is wonderful!By the way, you’re not getting rid of me anytime soon because I want to make candles for songs by other artists next!</p>
               </div>
               <div class="depoimento">
                 <h3>Momentos Literários <strong class="estrelas">★★★★★</strong></h3>
-                <p>Thank you, Blink! I’m recommending you to other<br>pages. Since the beginning of my page, I’ve been<br>making layouts with you and it always works out.</p>
+                <p>Thank you, Blink! I’m recommending you to other pages. Since the beginning of my page, I’ve been making layouts with you and it always works out.</p>
               </div>
             </div>
         </section>
         <section id=fazer-orcamento class="orcamento">
             <div class="orcamento-conteudo">
                 <h2 class="titulo-orcamento">HOW DOES<br>THE ESTIMATE<br><strong class="destaque-roxo">WORK?<strong></h2>
-                <p class="texto-orcamento">To request an estimate, simply reach out to us <strong>via<br>DM on Twitter, Instagram or contact us<br>by email.</strong> After reviewing the purchase terms<br>selecting the deadline, <strong>the chosen designer by you,<br> will provide the estimate. Then, you'll fill out<br></strong> a <strong>form</strong> to detail your request, and we're here to<br>clarify any questions. <strong>Simple, fast, and hassle-free!</strong></p>
+                <p class="texto-orcamento">To request an estimate, simply reach out to us <strong>via DM on Twitter, Instagram or contact us by email.</strong> After reviewing the purchase terms selecting the deadline, <strong>the chosen designer by you, will provide the estimate. Then, you'll fill out</strong> a <strong>form</strong> to detail your request, and we're here to clarify any questions. <strong>Simple, fast, and hassle-free!</strong></p>
               </div>
               <div class="contato">
                 <h2 class="contato-texto">GET IN <strong>TOUCH</strong></h2>
@@ -86,5 +90,15 @@
               </div>
         </section>
     </main>
+    <script>
+      const toggle = document.getElementById('menu-toggle');
+      const menu = document.querySelector('.lista-nav');
+      const body = document.body;
+    
+      toggle.addEventListener('click', () => {
+        menu.classList.toggle('active');
+
+      });
+    </script>
 </body>
 </html>

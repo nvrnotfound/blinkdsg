@@ -91,3 +91,43 @@ body{
     font-size: 1.5rem;
     font-weight: 500;
 }
+
+@media(max-width: 600px){
+
+.logo{
+    width: 15%;
+}
+
+.titulo{
+    margin: 20% 0 0 10%;
+    font-size: 4rem;
+}
+
+.container-conteudo{
+    width: 100%;
+}
+
+.borda-lista{
+    margin: 15% 0 20% 18%;
+    border: none;
+}
+
+.lista{
+    flex-direction: column;
+    gap: 30px;
+}
+
+.trabalhadora{
+    font-size: 1.25rem;
+}
+
+.clique{
+    font-size: 1rem;
+}
+
+.aviso{
+    display: flex;
+    justify-content: center;
+}
+
+}

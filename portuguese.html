@@ -9,7 +9,9 @@
 </head>
 <body>
     <header>
-            
+      <div class="menu-toggle" id="menu-toggle">
+        &#9776;
+      </div>
         <nav>
             <ul class="lista-nav">
             <li class="item1-lista"><a class="header-a" href="termos.html">TERMOS DE <strong class="texto-bold">COMPRAS</strong> </a></li>
@@ -40,42 +42,42 @@
             <div class="depoimentos-grid">
               <div class="depoimento">
                 <h3>SD Descontos <strong class="estrelas">★★★★★</strong></h3>
-                <p>Eu não sei nem o que falar, apenas amei.<br> Sério.  Tudo o que eu queria.  Diferente, que<br> mantesse a originalidade. Estou sem palavras.</p>
+                <p>Eu não sei nem o que falar, apenas amei. Sério.  Tudo o que eu queria.  Diferente, que mantesse a originalidade. Estou sem palavras.</p>
               </div>
               <div class="depoimento">
                 <h3>CRBR <strong class="estrelas">★★★★★</strong></h3>
-                <p>Quero te agradecer novamente. Ficou muito<br>lindo, de verdade. Melhor do que eu imaginei.<br>Você arrasou muito!</p>
+                <p>Quero te agradecer novamente. Ficou muito lindo, de verdade. Melhor do que eu imaginei.Você arrasou muito!</p>
               </div>
               <div class="depoimento">
                 <h3>Golden Squad <strong class="estrelas">★★★★★</strong></h3>
-                <p>Nós do Golden Squad, agradecemos pelo tempo<br> e dedicação que tiveram para criar esse trabalho<br> lindo e maravilhoso. Amamos muito, obrigada<br>mais uma vez!</p>
+                <p>Nós do Golden Squad, agradecemos pelo tempo e dedicação que tiveram para criar esse trabalho lindo e maravilhoso. Amamos muito, obrigada mais uma vez!</p>
               </div>
               <div class="depoimento">
                 <h3>Nap K-Store <strong class="estrelas">★★★★★</strong></h3>
-                <p>Obrigada por transformar essa nova fase da Nap,<br>eu estava um pouco desanimada, mas agora tenho<br>que fazer jus a esses designs perfeitos.</p>
+                <p>Obrigada por transformar essa nova fase da Nap, eu estava um pouco desanimada, mas agora tenho que fazer jus a esses designs perfeitos.</p>
               </div>
               <div class="depoimento">
                 <h3>Magic Go Store<strong class="estrelas">★★★★★</strong></h3>
-                <p>Ficou perfeito!! Eu sei que já disse isso antes,<br>mas porr* você é muito talentosa viu!!! Incrível!</p>
+                <p>Ficou perfeito!! Eu sei que já disse isso antes, mas porr* você é muito talentosa viu!!! Incrível!</p>
               </div>
               <div class="depoimento">
                 <h3>Clube 42 <strong class="estrelas">★★★★★</strong></h3>
-                <p>Eu amei, espero poder trabalhar novamente<br>com vocês em outros projetos!</p>
+                <p>Eu amei, espero poder trabalhar novamente com vocês em outros projetos!</p>
               </div>
               <div class="depoimento">
                 <h3>Velas Lux <strong class="estrelas">★★★★★</strong></h3>
-                <p>Mulher, eu que agradeço! Tá tudo maravilhoso!<br>Inclusive você não vai se livrar de mim tão cedo,<br>porque depois quero fazer velas para músicas de<br>outros artistas!</p>
+                <p>Mulher, eu que agradeço! Tá tudo maravilhoso! Inclusive você não vai se livrar de mim tão cedo, porque depois quero fazer velas para músicas de outros artistas!</p>
               </div>
               <div class="depoimento">
                 <h3>Momentos Literários <strong class="estrelas">★★★★★</strong></h3>
-                <p>Obrigada Blink, estou recomendando vocês para<br>outras páginas. Desde o começo da minha página<br>eu faço a pack com vocês e sempre dá certo.</p>
+                <p>Obrigada Blink, estou recomendando vocês para outras páginas. Desde o começo da minha página eu faço a pack com vocês e sempre dá certo.</p>
               </div>
             </div>
         </section>
         <section id=fazer-orcamento class="orcamento">
             <div class="orcamento-conteudo">
                 <h2 class="titulo-orcamento">COMO<br>FUNCIONA O<br><strong class="destaque-roxo">ORÇAMENTO?<strong></h2>
-                <p class="texto-orcamento">Para solicitar um orçamento, basta nos chamar <strong>via<br>DM no Twitter, Instagram ou entrar em contato<br>por e-mail.</strong> Após a leitura dos termos de compras,<br>e a escolha do prazo, <strong>a designer escolhida irá orçar.<br></strong>Após a leitura, você preenche um <strong>formulário</strong> para<br>detalhar seu pedido, e estamos disponíveis para<br>esclarecer qualquer dúvida. <strong>Fácil, rápido e sem<br>complicação!</strong></p>
+                <p class="texto-orcamento">Para solicitar um orçamento, basta nos chamar <strong>via DM no Twitter, Instagram ou entrar em contato por e-mail.</strong> Após a leitura dos termos de compras, e a escolha do prazo, <strong>a designer escolhida irá orçar. </strong>Após a leitura, você preenche um <strong>formulário</strong> para detalhar seu pedido, e estamos disponíveis para esclarecer qualquer dúvida. <strong>Fácil, rápido e sem complicação!</strong></p>
               </div>
               <div class="contato">
                 <h2 class="contato-texto">ENTRE EM<br><strong>CONTATO</strong></h2>
@@ -88,5 +90,14 @@
               </div>
         </section>
     </main>
+    <script>
+      const toggle = document.getElementById('menu-toggle');
+      const menu = document.querySelector('.lista-nav');
+    
+      toggle.addEventListener('click', () => {
+        menu.classList.toggle('active');
+
+      });
+    </script>
 </body>
 </html>

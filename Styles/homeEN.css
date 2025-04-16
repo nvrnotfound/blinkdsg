@@ -20,6 +20,18 @@
     color: #bed35a;
 }
 
+.menu-toggle {
+    display: none;
+    font-size: 2.5rem;
+    color: var(--font-color);
+    cursor: pointer;
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+  }
+
 .header-a{
     background-color: var(--background-color);
     font-family: var(--font-principal);
@@ -188,6 +200,7 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
     color: #281f3d;
+    text-align: justify;
     font-size: 1.5rem;
     padding: 2.2em;
     height: 120vh;
@@ -211,7 +224,7 @@ body{
   }
 
   .depoimento{
-    margin-left: 14%;
+    margin:0 19% 0 14%;
     padding: 1em;
   }
 
@@ -235,11 +248,12 @@ body{
 
 .texto-orcamento{
     font-family: var(--font-principal);
+    text-align: justify;
     font-weight: 400;
     color: var(--font-color);
     font-size: 1.5rem;
     line-height: 150%;
-    margin-left: 10%;
+    margin: 0 15% 0 10%;
 }
 
 .contato {
@@ -259,4 +273,161 @@ body{
   .icons img {
     width: 10%;
     margin: 2% 1%;
+  }
+
+  @media (max-width: 1068px) {
+
+    body{
+        background-image: none;
+    }
+
+    .menu-toggle {
+        display: block;
+      }
+    
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    
+      .lista-nav {
+        display: none;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+        background-color: var(--background-color);
+        width: 100%;
+        padding: 0 12rem 7rem 12rem;
+        position: absolute;
+        top: 120px;
+        left: -190px;
+        z-index: 100;
+      }
+
+      .lista-nav li {
+        background: none !important;
+        border: none !important;
+      }
+
+      .lista-nav a {
+        color: var(--font-color);
+        text-decoration: none;
+        font-size: 1.4rem;
+        font-weight: 500;
+        font-family: var(--font-principal);
+      }
+
+      .lista-nav a:hover {
+        color: #B89CF0;
+      }
+    
+      .lista-nav.active {
+        display: flex;
+      }
+  
+  
+    .inicio {
+      height: 85vh;
+      padding: 2em;
+      text-align: center;
+
+    }
+  
+    .logo-principal {
+      width: 80%;
+      margin: 0 auto;
+    }
+  
+    .container2 {
+      grid-template-columns: 1fr;
+      height: auto;
+      padding: 2em 1em;
+    }
+  
+    .titulo-porque {
+      font-size: 3rem;
+      line-height: 100%;
+      margin: 10% 0 10% 0;
+      text-align: center;
+    }
+  
+    .descricao-porque {
+      font-size: 1.2rem;
+      margin: 0 0 10% 10%;
+      text-align: justify;
+      width: 80%;
+      padding: 0;
+    }
+  
+    .botao {
+      width: 94%;
+      font-size: 1.2rem;
+    }
+  
+    .divisor {
+      height: 20vh;
+      background-size: cover;
+      padding: 2em;
+    }
+  
+    .depoimentos {
+      font-size: 1rem;
+      padding: 1.5em;
+      height: auto;
+      background-color: #fff7e9;
+      background-image: none;
+    }
+  
+    .titulo-depoimentos {
+      font-size: 3.5rem;
+      line-height: 100%;
+      margin: 0 0 2em 0;
+      text-align: center;
+    }
+  
+    .depoimentos-grid {
+      grid-template-columns: 1fr;
+      gap: 2em;
+    }
+  
+    .depoimento {
+      margin: 0;
+      padding: 1em;
+    }
+  
+    .orcamento {
+      grid-template-columns: 1fr;
+      height: 100vh;
+      background: linear-gradient(to bottom, #2d2b4e 50%, #f2c4f4 50%);
+    }
+  
+    .titulo-orcamento, .texto-orcamento {
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .titulo-orcamento {
+      font-size: 3rem;
+      margin: 0 0 10% 0;
+    }
+  
+    .texto-orcamento {
+      font-size: 1rem;
+      text-align: justify;
+      margin: 0 0 10% 2%
+    }
+  
+    .contato{
+        height: 40vh;
+    }
+
+    .contato-texto {
+        padding: 10% 0 5% 0;
+        line-height: 100%;
+      font-size: 4.5rem;
+    }
+  
+    .icons img {
+      width: 20%;
+    }
   }
