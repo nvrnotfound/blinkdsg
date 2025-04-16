@@ -297,11 +297,10 @@ body{
         flex-direction: column;
         gap: 50px;
         background-color: var(--background-color);
-        width: 100%;
-        padding: 0 12rem 7rem 12rem;
+        width: 80%;
         position: absolute;
         top: 120px;
-        left: -190px;
+        left: 25px;
         z-index: 100;
       }
 
@@ -397,7 +396,7 @@ body{
   
     .orcamento {
       grid-template-columns: 1fr;
-      height: 100vh;
+      height: 120vh;
       background: linear-gradient(to bottom, #2d2b4e 50%, #f2c4f4 50%);
     }
   
@@ -418,15 +417,14 @@ body{
     }
   
     .contato{
-        height: 40vh;
+        height: 50vh;
     }
 
     .contato-texto {
-        padding-top: 15%;
       font-size: 4rem;
     }
   
     .icons img {
-      width: 22%;
+      width: 18%;
     }
   }

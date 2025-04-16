@@ -120,17 +120,22 @@ a{
 
 @media (max-width: 650px){
 
+body{
+    overflow: hidden;
+}
+
 a{
     font-size: 1rem;
 }
 
 .background__section{
-    width: 100%;
+    width: 50%;
+    margin-left: 25%;
     height: 70vh;
 }
 
 .logo{
-    width: 40%;
+    width: 34%;
 }
 
 .lista-nav{
@@ -138,8 +143,7 @@ a{
 }
 
 
-.copyright{
-    width: 0;
+.rodape{
+    height: 0vh;
 }
-
 }
