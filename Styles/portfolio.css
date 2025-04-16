@@ -99,16 +99,16 @@ body{
 }
 
 .titulo{
-    margin: 15% 0 0 3%;
+    margin-top: 20%;
     font-size: 4rem;
 }
 
 .container-conteudo{
-    width: 100%;
+    width: 110%;
 }
 
 .borda-lista{
-    margin: 15% 0 20% 16%;
+    margin: 10% 0 20% 7%;
     border: none;
 }
 
